@@ -1,0 +1,26 @@
+{
+    "name": "tic-tac-toe",
+    "version": "1.0.0",
+    "author": "0Exe",
+    "description": "Tic Tac Toe, made with Electron (js), as a beginner project!",
+    "main": "main.js",
+    "scripts": {
+        "start": "npx electron-builder",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "dependencies": {
+        
+    },
+    "devDependencies": {
+        "electron": "^11.2.0",
+        "electron-builder": "^22.9.1"
+    },
+
+    "build": {
+      "appId": "Tic Tac Toe",
+      "win": {
+        "icon": "icon.png"
+      }
+    }
+}
