@@ -4,7 +4,9 @@
 Instructions to build:
 
 > npm i electron
+
 > npm i electron-builder
+
 
 > npm start
 
